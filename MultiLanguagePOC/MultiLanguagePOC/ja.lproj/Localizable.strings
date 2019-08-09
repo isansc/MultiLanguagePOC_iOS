@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  MultiLanguagePOC
+
+  Created by Isan Campos on 08/08/19.
+  
+*/
+"Document" = "文書";
+"Is the document there?" = "文書はあそこですか？";
+"Yes" = "はい";
+"No" = "いいえ";
+"Now is %@" = "今は%@です";
+"imgHello" = "img_hello_jp";

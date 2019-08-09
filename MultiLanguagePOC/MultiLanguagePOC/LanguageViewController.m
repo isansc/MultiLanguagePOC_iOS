@@ -8,6 +8,7 @@
 #import "LanguageViewController.h"
 
 @interface LanguageViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imgHello;
 
 @end
 
@@ -15,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self.imgHello setImage:[UIImage imageNamed:NSLocalizedString(@"imgHello", nil)]];
+
 }
 
 /*

@@ -22,14 +22,14 @@
 
 - (IBAction)btnShowAlertClick:(id)sender {
     UIAlertController * alert = [UIAlertController
-                                 alertControllerWithTitle:@"Document"
-                                 message:@"Is the document there?"
+                                 alertControllerWithTitle:NSLocalizedString(@"Document", nil)
+                                 message:NSLocalizedString(@"Is the document there?", nil)
                                  preferredStyle:UIAlertControllerStyleAlert];
     
     //Add Buttons
     
     UIAlertAction* yesButton = [UIAlertAction
-                                actionWithTitle:@"Yes"
+                                actionWithTitle:NSLocalizedString(@"Yes", nil)
                                 style:UIAlertActionStyleDefault
                                 handler:^(UIAlertAction * action) {
                                     //Handle your yes please button action here
@@ -37,7 +37,7 @@
                                 }];
     
     UIAlertAction* noButton = [UIAlertAction
-                               actionWithTitle:@"No"
+                               actionWithTitle:NSLocalizedString(@"No", nil)
                                style:UIAlertActionStyleDefault
                                handler:^(UIAlertAction * action) {
                                    //Handle no, thanks button
@@ -54,7 +54,7 @@
 
 -(void)updateDynamicLabel{
     
-    NSString *strTemp = [NSString stringWithFormat:@"Now is %@",[self getCurrentDate]];
+    NSString *strTemp = [NSString stringWithFormat:NSLocalizedString(@"Now is %@", nil),[self getCurrentDate]];
     self.lblDynamic.text = strTemp;
     
 }

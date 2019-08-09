@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  MultiLanguagePOC
+
+  Created by Isan Campos on 08/08/19.
+  
+*/
+"Document" = "Documento";
+"Is the document there?" = "O documento está lá?";
+"Yes" = "Sim";
+"No" = "Não";
+"Now is %@" = "Agora é %@";
+"imgHello" = "img_hello_pt";

@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "Dynamic Label"; ObjectID = "4Tr-Rg-fB6"; */
+"4Tr-Rg-fB6.text" = "Dynamic Label";
+
+/* Class = "UIButton"; normalTitle = "Show alert"; ObjectID = "GSa-M0-mqu"; */
+"GSa-M0-mqu.normalTitle" = "Show alert";
+
+/* Class = "UILabel"; text = "Tomorrow I will see you"; ObjectID = "I1u-fH-zyR"; */
+"I1u-fH-zyR.text" = "Tomorrow I will see you";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Qjf-U2-2jm"; */
+"Qjf-U2-2jm.text" = "Name";
+
+/* Class = "UINavigationItem"; title = "Name"; ObjectID = "WO4-jr-D2g"; */
+"WO4-jr-D2g.title" = "Name";
+
+/* Class = "UILabel"; text = "I can speak English"; ObjectID = "ilM-1f-MdR"; */
+"ilM-1f-MdR.text" = "I can speak English";
+
+/* Class = "UILabel"; text = "My name is John"; ObjectID = "mAq-Lt-EmU"; */
+"mAq-Lt-EmU.text" = "My name is John";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "pve-Ag-GcG"; */
+"pve-Ag-GcG.text" = "Language";
+
+/* Class = "UILabel"; text = "When?"; ObjectID = "qDr-ql-nmJ"; */
+"qDr-ql-nmJ.text" = "When?";
