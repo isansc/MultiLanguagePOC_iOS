@@ -8,6 +8,7 @@
 #import "WhenViewController.h"
 
 @interface WhenViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *btnNext;
 
 @end
 
@@ -16,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    UIImage* btnImage = [UIImage imageNamed:NSLocalizedString(@"btnNext", nil)];
+    [[self btnNext] setBackgroundImage:btnImage forState:UIControlStateNormal];
 }
 
 /*

@@ -36,7 +36,7 @@
                                     <constraint firstAttribute="height" constant="40" id="TFx-4U-se8"/>
                                     <constraint firstAttribute="width" constant="100" id="sal-5U-YAQ"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="btn_next.png"/>
+                                <state key="normal" backgroundImage="btn_next_en"/>
                                 <connections>
                                     <segue destination="BBi-db-a5D" kind="show" id="eRm-Y3-AnN"/>
                                 </connections>
@@ -76,6 +76,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Name" id="WO4-jr-D2g"/>
                     <connections>
+                        <outlet property="btnNext" destination="Ur5-Nu-2qn" id="Dyn-tP-lB3"/>
                         <outlet property="lblDynamic" destination="4Tr-Rg-fB6" id="Vju-ht-dEq"/>
                     </connections>
                 </viewController>
@@ -109,7 +110,7 @@
                                     <constraint firstAttribute="height" constant="40" id="S8J-6C-GB7"/>
                                     <constraint firstAttribute="width" constant="100" id="mAj-Uk-5xz"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="btn_next.png"/>
+                                <state key="normal" backgroundImage="btn_next_en"/>
                                 <connections>
                                     <segue destination="wih-an-utA" kind="show" id="Ab4-6g-une"/>
                                 </connections>
@@ -126,6 +127,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XpF-vw-8Sf"/>
                     </view>
+                    <connections>
+                        <outlet property="btnNext" destination="PdG-Dk-QW1" id="VUa-Av-Nci"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jK6-KU-6pJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -199,6 +203,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="btn_next.png" width="72" height="24"/>
+        <image name="btn_next_en" width="300" height="100"/>
     </resources>
 </document>

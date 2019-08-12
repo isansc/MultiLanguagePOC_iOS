@@ -10,4 +10,10 @@
 "Yes" = "はい";
 "No" = "いいえ";
 "Now is %@" = "今は%@です";
-"imgHello" = "img_hello_jp";
+"imgHello" = "img_hello_ja";
+"btnNext" = "btn_next_ja";
+"Language" = "国語";
+"English" = "英語";
+"Portuguese" = "ポルトガル語";
+"Japanese" = "日本語";
+"Cancel" = "キャンセル";

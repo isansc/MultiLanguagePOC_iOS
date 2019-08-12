@@ -9,6 +9,7 @@
 
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *lblDynamic;
+@property (weak, nonatomic) IBOutlet UIButton *btnNext;
 
 @end
 
@@ -16,8 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+}
+
+- (void)viewWillAppear:(BOOL)animated{
     [self updateDynamicLabel];
+    
+    UIImage* btnImage = [UIImage imageNamed:NSLocalizedString(@"btnNext", nil)];
+    [[self btnNext] setBackgroundImage:btnImage forState:UIControlStateNormal];
 }
 
 - (IBAction)btnShowAlertClick:(id)sender {
@@ -25,8 +32,6 @@
                                  alertControllerWithTitle:NSLocalizedString(@"Document", nil)
                                  message:NSLocalizedString(@"Is the document there?", nil)
                                  preferredStyle:UIAlertControllerStyleAlert];
-    
-    //Add Buttons
     
     UIAlertAction* yesButton = [UIAlertAction
                                 actionWithTitle:NSLocalizedString(@"Yes", nil)
@@ -42,8 +47,6 @@
                                handler:^(UIAlertAction * action) {
                                    //Handle no, thanks button
                                }];
-    
-    //Add your buttons to alert controller
     
     [alert addAction:yesButton];
     [alert addAction:noButton];
@@ -76,6 +79,5 @@
     
     return str;
 }
-
 
 @end
